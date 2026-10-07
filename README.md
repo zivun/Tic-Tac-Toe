@@ -2,7 +2,7 @@
 This repository holds the files and html of our group's website
 
 ## Live site
-https://zivun.github.io/tic-tac-toe/
+[Play the game](https://zivun.github.io/tic-tac-toe/) | [View the HTML page](index.html)
 
 ## Running the game
 Open `index.html` in a browser. No build step or dependencies are needed. Choose two players or play the computer (easy or unbeatable); scores are kept across rounds.
