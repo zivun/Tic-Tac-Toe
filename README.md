@@ -1,8 +1,10 @@
 # Tic-Tac-Toe
 This repository holds the files and html of our group's website
+single handly done with the help of claude
 
 ## Live site
 [Play the game](https://zivun.github.io/Tic-Tac-Toe/)
+p.s don't forget to enjoy and have fun!
 
 ## Running the game
 Open `index.html` in a browser. No build step or dependencies are needed. Choose two players or play the computer (easy or unbeatable); scores are kept across rounds.
