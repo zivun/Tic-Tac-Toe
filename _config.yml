@@ -1,0 +1,8 @@
+title: Tic Tac Toe | Fundamental of Computing
+description: A two-player tic-tac-toe game for Fundamental of Computing at the University of Belize.
+lang: en
+markdown: kramdown
+exclude:
+  - README.md
+  - Gemfile
+  - Gemfile.lock
