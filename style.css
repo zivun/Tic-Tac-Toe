@@ -267,3 +267,7 @@ select {
   .mark path, .mark circle { animation: none; }
   .cell, .btn, .segmented span { transition: none; }
 }
+
+/* Links to the course project site */
+.rules li a { color: var(--indigo); text-underline-offset: 3px; }
+.rules li a:hover { color: var(--mauve); }
