@@ -6,12 +6,6 @@ single handly done with the help of claude
 [Play the game](https://zivun.github.io/Tic-Tac-Toe/)
 p.s don't forget to enjoy and have fun!
 
-## Course project site
-- [Cover](https://zivun.github.io/Tic-Tac-Toe/course/index.html)
-- [Team Members](https://zivun.github.io/Tic-Tac-Toe/course/team.html)
-- [Video Gallery](https://zivun.github.io/Tic-Tac-Toe/course/videos.html)
-- [Documentation](https://zivun.github.io/Tic-Tac-Toe/course/docs.html)
-
 ## Running the game
 Open `index.html` in a browser. No build step or dependencies are needed. Choose two players or play the computer (easy or unbeatable); scores are kept across rounds.
 
