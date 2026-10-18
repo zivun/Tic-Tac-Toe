@@ -32,9 +32,11 @@ Final project website for **CMPS1134 Fundamentals of Computing** at the Universi
 
 ## Team
 
-- Full Name 1
-- Full Name 2
-- Full Name 3
+- Marcus Reyes (dummy)
+- Sofia Martinez (dummy)
+- Daniel Cho (dummy)
+- Amara Johnson (dummy)
+- Elena Petrova (dummy)
 
 ## Deploying to GitHub Pages
 
