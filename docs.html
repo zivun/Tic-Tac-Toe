@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Documentation | CMPS1134</title>
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+  <header class="site-header">
+    <div class="container header-inner">
+      <a class="brand" href="index.html">CMPS1134</a>
+      <button class="nav-toggle" aria-label="Toggle navigation" aria-expanded="false">&#9776;</button>
+      <nav class="site-nav" aria-label="Main">
+        <a href="index.html">Home</a>
+        <a href="team.html">Team Members</a>
+        <a href="videos.html">Video Gallery</a>
+        <a href="docs.html" class="active" aria-current="page">Documentation</a>
+      </nav>
+    </div>
+  </header>
+
+  <main class="container section">
+    <h1>Documentation</h1>
+    <p class="lead-dark">Our written report, presentation slides and supporting material. Both Google Drive files are shared with public access (&ldquo;Anyone with the link can view&rdquo;).</p>
+
+    <h2>Main Deliverables</h2>
+    <div class="card-grid">
+      <article class="card">
+        <h3>Written Report</h3>
+        <p>The full written report for the final project.</p>
+        <a class="btn" href="https://drive.google.com/REPLACE_WITH_REPORT_LINK" target="_blank" rel="noopener">Open Report (Google Drive)</a>
+      </article>
+      <article class="card">
+        <h3>Presentation Slides</h3>
+        <p>The slides used for our final presentation.</p>
+        <a class="btn" href="https://drive.google.com/REPLACE_WITH_SLIDES_LINK" target="_blank" rel="noopener">Open Slides (Google Drive)</a>
+      </article>
+    </div>
+
+    <h2>Additional Documentation</h2>
+
+    <h3>Screenshots</h3>
+    <div class="shot-grid">
+      <figure>
+        <img src="images/screenshot1.svg" alt="Screenshot placeholder 1" width="400" height="250" loading="lazy">
+        <figcaption>Screenshot 1: describe what it shows.</figcaption>
+      </figure>
+      <figure>
+        <img src="images/screenshot2.svg" alt="Screenshot placeholder 2" width="400" height="250" loading="lazy">
+        <figcaption>Screenshot 2: describe what it shows.</figcaption>
+      </figure>
+    </div>
+
+    <h3>Code Snippet</h3>
+    <p>Example: the JavaScript that powers the mobile navigation menu on this site.</p>
+<pre><code>const toggle = document.querySelector('.nav-toggle');
+const nav = document.querySelector('.site-nav');
+
+toggle.addEventListener('click', () =&gt; {
+  const open = nav.classList.toggle('open');
+  toggle.setAttribute('aria-expanded', open);
+});</code></pre>
+
+    <h3>Testing Log</h3>
+    <div class="table-wrap">
+      <table>
+        <thead>
+          <tr><th>Date</th><th>Test</th><th>Result</th><th>Tester</th></tr>
+        </thead>
+        <tbody>
+          <tr><td>YYYY-MM-DD</td><td>All navigation links open the correct page</td><td>Pass</td><td>Name</td></tr>
+          <tr><td>YYYY-MM-DD</td><td>Videos load and play on the gallery page</td><td>Pass</td><td>Name</td></tr>
+          <tr><td>YYYY-MM-DD</td><td>Site displays correctly on a phone-sized screen</td><td>Pass</td><td>Name</td></tr>
+          <tr><td>YYYY-MM-DD</td><td>Google Drive links open without signing in</td><td>Pass</td><td>Name</td></tr>
+          <tr><td>YYYY-MM-DD</td><td>Live GitHub Pages link loads</td><td>Pass</td><td>Name</td></tr>
+        </tbody>
+      </table>
+    </div>
+  </main>
+
+  <footer class="site-footer">
+    <div class="container">
+      <p>&copy; 2026 CMPS1134 Fundamentals of Computing &middot; University of Belize</p>
+    </div>
+  </footer>
+  <script src="js/main.js"></script>
+</body>
+</html>
